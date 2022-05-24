@@ -1,0 +1,153 @@
+header{
+    background-image: url(imagenes/Fondo\ Masbel.jpg);
+    background-size: 6%;
+}
+
+body{
+    background-color: hsl(20, 50%, 80%);
+}
+
+.masbel-titulo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo-masbel{
+    width: 10%;
+    border-radius: 75%;
+}
+
+.logo-carrito-buscador{
+    display: flex;
+    justify-content: center;
+}
+
+.buscador{
+    font-size: 200%;
+}
+
+.menu{
+    border: 5px solid hsl(240,80%,75%);
+    display: flex;
+    justify-content: center;
+}
+
+
+.masvendidos{
+    display: flex;
+    justify-content: center;
+}
+
+.bidon-imagen{
+    max-width: 8cm;
+    max-height: 8cm;
+}
+
+.spray-imagen{
+    max-width: 8cm;
+    max-height: 8cm;
+}
+
+.trapo-imagen{
+    max-width: 8cm;
+    max-height: 8cm;
+}
+
+.tabla{
+    border-right: 5px solid hsl(240,80%,75%);
+    border-bottom: 5px solid hsl(240,80%,75%);
+    border-left: 5px solid hsl(240,80%,75%);
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+}
+
+.horarios{
+    display: flex;
+    justify-content: center;
+    border-right: 5px solid hsl(240,80%,75%);
+    border-top: 5px solid hsl(240,80%,75%);
+    border-left: 5px solid hsl(240,80%,75%);
+}
+
+.iconos{
+    display: flex;
+    justify-content: space-evenly;
+    border-right: 5px solid hsl(240,80%,75%);
+    border-bottom: 5px solid hsl(240,80%,75%);
+    border-left: 5px solid hsl(240,80%,75%);
+}
+
+.contacto{
+    border-right: 5px solid hsl(240,80%,75%);
+    border-bottom: 5px solid hsl(240,80%,75%);
+    border-left:  5px solid hsl(240,80%,75%);
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(230,90%,75%);
+}
+
+.whatsapp-imagen{
+    width: 4%;
+}
+
+.insta-imagen{
+    width: 4%;
+}
+
+.facebook-imagen{
+    width: 4%;
+}
+
+.gmail-imagen{
+    width: 4%;
+}
+
+.menu-conoce{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    border: 5px solid hsl(240,80%,75%);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 3 / 2; 
+        border: 5px solid hsl(240,80%,75%);}
+    .div2 { grid-area: 1 / 2 / 2 / 3; 
+        border: 5px solid hsl(240,80%,75%);}
+    .div3 { grid-area: 1 / 3 / 2 / 4; 
+        border: 5px solid hsl(240,80%,75%);}
+    .div4 { grid-area: 2 / 3 / 3 / 4; 
+        border: 5px solid hsl(240,80%,75%);}
+    .div5 { grid-area: 2 / 2 / 3 / 3; 
+        border: 5px solid hsl(240,80%,75%);}
+
+    .conocetamaño{
+        width: 100%;
+    }
+
+    .hoteleriatamaño{
+        width: 100%;
+    }
+
+    .gastronomiatamaño{
+        width: 100%;
+    }
+
+    .lavanderiatamaño{
+        width: 100%;
+    }
+
+    .edificiostamaño{
+        width: 100%;
+    }

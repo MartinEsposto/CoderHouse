@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link Css -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Mas-Bel</title>
+
+</head>
+
+<body>
+
+    <!-- Inicio header -->
+    <header>
+        <h1 class="masbel-titulo">MASBEL ARGENTINA</h1>
+        <div class="logo-carrito-buscardor">
+            <a href=""><img class="logo-masbel" src="imagenes/Logo Masbel 2.jpg" alt="logo-masbel"></a>
+   
+            <input class="buscador" type="text" name="que-buscas" id="producto" required="" placeholder="Que estas buscando?">
+
+            <button class="carrito">
+                <a href=""><img class="carrito-imagen" src="imagenes/Carrito-logo.png" alt="carrito de compras"></a>
+            </button>
+        </div>
+        <!-- Inicio menu -->
+        <div>
+            <nav class="menu">
+                <ul class="menu-categorias"> <h2>Categorias</h2>
+                    <li>
+                        <a href="index1.html"> Higiene de Cocina</a>    
+                    </li>
+                    <li>
+                        <a href="index2.html"> Lavado de Textiles</a>
+                    </li>
+                    <li>
+                        <a href="index3.html"> Tratamiento de Pisos</a>
+                    </li>
+                </ul>    
+                <ul class="menu-nosotros"> <h2> Nosotros</h2>
+                    <li>
+                        <a href="index4.html"> Quienes somos</a>
+                    </li>
+                    <li>
+                        <a href=""> Nuestras marcas</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Fin menu -->
+
+    </header>   
+    <!-- Fin header -->
+
+    <!-- Inicio section -->
+    <h2 class="masvendidos">Lo mas vendido</h2>
+    <section class="iconos">
+
+        <a href=""><img class="bidon-imagen" src="imagenes/bidon.jpg" alt="bidon limpieza"></a>
+
+        <a href=""><img class="spray-imagen" src="imagenes/spray.jpg" alt="spray limpieza"></a>
+
+        <a href=""><img class="trapo-imagen" src="imagenes/trapo.jpg" alt="trapo limpieza"></a>
+
+    </section>
+    <!-- Fin section -->
+
+    <!-- Inicio section -->
+    <section>
+        <div class="menu-conoce">
+            <div class="div1">
+                <img class="conocetamaño" src="imagenes/conoce-propuestas.jpg" alt="">
+            </div>
+            <div class="div2">
+                <img class="hoteleriatamaño" src="imagenes/hoteleria.jpg" alt=""> 
+            </div>
+            <div class="div3"> 
+                <img class="gastronomiatamaño" src="imagenes/gastronomia.jpg" alt="">                    
+            </div>
+            <div class="div4">
+                <img class="lavanderiatamaño" src="imagenes/lavanderia.jpg" alt="">
+            </div>
+            <div class="div5">
+                <img class="edificiostamaño" src="imagenes/edificios.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- Fin section -->
+
+    <!-- Inicio tabla -->
+    <h2 class="horarios">Horarios de reparto</h2>
+    <div class="tabla">
+        <table>
+            <tr>
+                <th></th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+            <tr>
+                <th>Barrios</th>
+                <td>Villa Lugano</td>
+                <td>Barrio Coppelo</td>
+                <td>Villa Celina</td>
+                <td>Mataderos</td>
+                <td>San Justo</td>
+            </tr>
+            <tr>
+                <th>Horarios</th>
+                <td colspan="4" class="union-tabla">De 08:00 a 18:00</td>
+                <td>De 12:00 a 20:00</td>
+            </tr>
+        </table>
+    </div>
+    <!-- Fin tabla -->
+
+    <!-- Inicio formulario -->
+    <section class="contacto">
+
+        <div class="formulario">      
+          <h1>Formulario de contacto</h1>
+            <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+              <form action="submeter-formulario.php" method="post">       
+                    <p>
+                      <label for="nombre" class="colocar_nombre">Nombre
+                        <span class="obligatorio">*</span>
+                      </label>
+                        <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                    </p>
+                  
+                    <p>
+                      <label for="email" class="colocar_email">Email
+                        <span class="obligatorio">*</span>
+                      </label>
+                        <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                    </p>
+                
+                    <p>
+                      <label for="telefone" class="colocar_telefono">Teléfono
+                      </label>
+                        <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                    </p>      
+                  
+                    <p>
+                      <label for="asunto" class="colocar_asunto">Asunto
+                        <span class="obligatorio">*</span>
+                      </label>
+                        <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                    </p>    
+                  
+                    <p>
+                      <label for="mensaje" class="colocar_mensaje">Mensaje
+                        <span class="obligatorio">*</span>
+                      </label>                     
+                                        <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                    </p>                    
+                  
+                    <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+    
+                    <p class="aviso">
+                      <span class="obligatorio"> * </span>Los campos son obligatorios.
+                    </p>          
+                
+              </form>
+        </div>  
+     </section>  
+    <!-- Fin formulario -->
+    
+    <!-- Inicio footer -->
+    <footer class="contactos">
+        <p>
+            <h2>
+                Contacto
+            </h2>
+        </p>
+
+        <img class="whatsapp-imagen" src="imagenes/whatsapp-imagen.png" alt="whatsapp imagen">
+        <p>
+            +54 1161639268
+        </p>
+
+        <img class="insta-imagen" src="imagenes/instagram-imagen.png" alt="instagram imagen">
+        <a href="https://www.instagram.com/masbelargentina/">Instagram</a>
+
+        <img class="facebook-imagen" src="imagenes/facebook-imagen.png" alt="twitter imagen">
+        <p>
+            <a href="https://www.facebook.com/mas.bel.9">Mas Bel</a>
+        </p>
+
+        <img class="gmail-imagen" src="imagenes/gmail-imagen.png" alt="gmail imagen">
+        <p>
+            masbelargentina@gmail.com
+        </p>
+    </footer>
+    <!-- Fin footer -->
+</body>
+</html>

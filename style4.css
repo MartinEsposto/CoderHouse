@@ -1,0 +1,39 @@
+body{
+    background-color: hsl(20, 50%, 80%);
+}
+
+.contacto{
+    border-right: 5px solid hsl(240,80%,75%);
+    border-bottom: 5px solid hsl(240,80%,75%);
+    border-left:  5px solid hsl(240,80%,75%);
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-masbel{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(230,90%,75%);
+}
+
+.whatsapp-imagen{
+    width: 4%;
+}
+
+.insta-imagen{
+    width: 4%;
+}
+
+.facebook-imagen{
+    width: 4%;
+}
+
+.gmail-imagen{
+    width: 4%;
+}
