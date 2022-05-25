@@ -40,19 +40,34 @@ body{
     border-left: 5px solid hsl(240,80%,75%);
 }
 
+.spray-imagen:hover{
+    transform: scale(2);
+}
+
+.bidon-imagen:hover{
+    transform: scale(2);
+}
+
+.trapo-imagen:hover{
+    transform: scale(2);
+}
+
 .bidon-imagen{
     max-width: 8cm;
     max-height: 8cm;
+    transition: all 1s;
 }
 
 .spray-imagen{
     max-width: 8cm;
     max-height: 8cm;
+    transition: all 1s;
 }
 
 .trapo-imagen{
     max-width: 8cm;
     max-height: 8cm;
+    transition: all 1s;
 }
 
 .tabla{
