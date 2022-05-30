@@ -44,33 +44,21 @@ body{
     font-family: FontQuick;
 }
 
-.spray-imagen:hover{
-    transform: scale(2);
+.iconos{
+    display: flex;
+    justify-content: space-evenly;
+    border-right: 5px solid hsl(240,80%,75%);
+    border-bottom: 5px solid hsl(240,80%,75%);
+    border-left: 5px solid hsl(240,80%,75%);
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .bidon-imagen:hover{
-    transform: scale(2);
-}
-
-.trapo-imagen:hover{
-    transform: scale(2);
+    transform: scale(1.5);
 }
 
 .bidon-imagen{
-    max-width: 8cm;
-    max-height: 8cm;
-    transition: all 1s;
-}
-
-.spray-imagen{
-    max-width: 8cm;
-    max-height: 8cm;
-    transition: all 1s;
-}
-
-.trapo-imagen{
-    max-width: 8cm;
-    max-height: 8cm;
     transition: all 1s;
 }
 
@@ -91,14 +79,6 @@ body{
     border-top: 5px solid hsl(240,80%,75%);
     border-left: 5px solid hsl(240,80%,75%);
     font-family: FontQuick;
-}
-
-.iconos{
-    display: flex;
-    justify-content: space-evenly;
-    border-right: 5px solid hsl(240,80%,75%);
-    border-bottom: 5px solid hsl(240,80%,75%);
-    border-left: 5px solid hsl(240,80%,75%);
 }
 
 .contacto{
@@ -148,27 +128,22 @@ footer{
     }
     
     .div1 { grid-area: 1 / 1 / 3 / 2; 
-        border: 5px solid hsl(240,80%,75%);
         display:flex;
         align-items: center;
     }
     .div2 { grid-area: 1 / 2 / 2 / 3; 
-        border: 5px solid hsl(240,80%,75%);
         display:flex;
         align-items: center;
     }
     .div3 { grid-area: 1 / 3 / 2 / 4; 
-        border: 5px solid hsl(240,80%,75%);
         display:flex;
         align-items: center;
     }
     .div4 { grid-area: 2 / 3 / 3 / 4; 
-        border: 5px solid hsl(240,80%,75%);
         display:flex;
         align-items: center;
     }
     .div5 { grid-area: 2 / 2 / 3 / 3; 
-        border: 5px solid hsl(240,80%,75%);
         display:flex;
         align-items: center;
     }
@@ -209,6 +184,7 @@ footer{
     bottom: -17%;
     font-size: 250%;
     font-family: FontQuick;
+    color: white;
 }
 
 .titulohoteleria{
@@ -217,6 +193,7 @@ footer{
     bottom: -45%;
     font-size: 200%;
     font-family: FontQuick;
+    color: white;
 }
 
 .titulogastronomia{
@@ -225,6 +202,7 @@ footer{
     bottom: -45%;
     font-size: 200%;
     font-family: FontQuick;
+    color: white;
 }
 
 .titulolavanderia{
@@ -233,6 +211,7 @@ footer{
     bottom: -45%;
     font-size: 200%;
     font-family: FontQuick;
+    color: white;
 }
 
 .tituloedificios{
@@ -241,4 +220,5 @@ footer{
     bottom: -33%;
     font-size: 200%;
     font-family: FontQuick;
+    color: white;e
 }
