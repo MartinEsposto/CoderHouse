@@ -232,3 +232,36 @@ footer{
     font-family: FontQuick;
     color: white;
 }
+
+@media screen and (max-width: 576px){
+    .menu-conoce{
+        display: none;
+    }
+    .conocetitulo{
+        display: none;
+    }
+    .tabla{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .menu-conoce{
+        display: none;
+    }
+    .conocetitulo{
+        display: none;
+    }
+    .tabla{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .menu-conoce{
+        display: none;
+    }
+    .conocetitulo{
+        display: none;
+    }
+}
