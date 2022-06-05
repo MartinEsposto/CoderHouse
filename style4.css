@@ -1,5 +1,11 @@
+@font-face {
+    font-family: FontQuick;
+    src: url(Quicksand/static/Quicksand-Bold.ttf);
+}
+
 body{
     background-color: hsl(20, 50%, 80%);
+    font-family: FontQuick;
 }
 
 .contacto{
@@ -20,6 +26,7 @@ footer{
     display: flex;
     justify-content: space-around;
     background-color: hsl(230,90%,75%);
+    align-items: center;
 }
 
 .whatsapp-imagen{
@@ -36,4 +43,129 @@ footer{
 
 .gmail-imagen{
     width: 4%;
+}
+
+.volver{
+    display: flex;
+    justify-content: center;
+}
+/* Inicios */
+.tituloinicios{
+    display: flex;
+    justify-content: center;
+}
+
+.inicios{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+
+/* Trayectoria */
+.titulotrayectoria{
+    display: flex;
+    justify-content: center;
+}
+
+.textotrayectoria{
+    text-align: justify;
+}
+
+.divimgstrayectoria{
+    display: flex;
+    justify-content: center;
+}
+
+.imgtrayectoria1{
+    width: 25%;
+    height: 25%;
+    padding: 3%;
+}
+
+.imgtrayectoria2{
+    width: 25%;
+    height: 25%;
+    padding: 3%;
+}
+
+/* Trabajamos */
+.titulotrabajamos{
+    display: flex;
+    justify-content: center;
+}
+
+.imgtrabajamos1 , .imgtrabajamos2 , .imgtrabajamos3 , .imgtrabajamos4 , .imgtrabajamos5{
+    width: 15%;
+    height: 15%;
+    padding: 2%
+}
+
+.txt1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.txt2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.txt3{
+    display: flex;
+    text-align: center;
+}
+
+.imgsola{
+    display: flex;
+    justify-content: center;
+}
+
+.txt4{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.ultimasimgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 576px){
+    .divimgstrayectoria{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .txt1 , .txt2 , .txt4{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .divimgstrayectoria{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .txt1 , .txt2 , .txt4{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .divimgstrayectoria{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .txt1 , .txt2 , .txt4{
+        display: flex;
+        flex-direction: column;
+    }
 }
