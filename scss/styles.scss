@@ -1,109 +1,43 @@
-.menu-conoce{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-    border-bottom: 5px solid hsl(240,80%,75%);
-    padding-top: 5%;
-    padding-bottom: 5%;
+header{
+    .masbel-titulo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: FontQuick;
+        color: black;
     }
     
-    .div1 { grid-area: 1 / 1 / 3 / 2; 
-        display:flex;
+    .logo-carrito-buscador{
+        background-image: url();
+        background-size: 6%;
+        display: flex;
+        justify-content: space-between;
         align-items: center;
     }
-
-    .div2 { grid-area: 1 / 2 / 2 / 3; 
-        display:flex;
-        align-items: center;
+    
+    .logo-masbel{
+        display: flex;
+        max-width: 50%;
+        border-radius: 50%;
     }
-
-    .div3 { grid-area: 1 / 3 / 2 / 4; 
-        display:flex;
-        align-items: center;
-    }
-
-    .div4 { grid-area: 2 / 3 / 3 / 4; 
-        display:flex;
-        align-items: center;
-    }
-
-    .div5 { grid-area: 2 / 2 / 3 / 3; 
-        display:flex;
-        align-items: center;
-    }
-
-    .conocetamaño{
+    
+    .buscador{
+        display: flex;
+        font-family: FontQuick;
+        margin-right: 10%;
         width: 100%;
     }
-
-    .hoteleriatamaño{
-        width: 100%;
+    
+    .carrito-imagen{
+        display: flex;
     }
-
-    .gastronomiatamaño{
-        width: 100%;
+    
+    .menu{
+        border-top: 5px solid hsl(240,80%,75%);
+        border-bottom: 5px solid hsl(240,80%,75%);
+        display: flex;
+        justify-content: center;
+        font-family: FontQuick;
+        font-size: 115%;
     }
-
-    .lavanderiatamaño{
-        width: 100%;
-    }
-
-    .edificiostamaño{
-        width: 100%;
-    }
-
-.conocetitulo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top: 5px solid hsl(240,80%,75%);
-    font-family: FontQuick;
-    font-size: 300%;
-}
-
-.titulotrabajamos{
-    position: relative;
-    right: 64%;
-    bottom: -17%;
-    font-size: 250%;
-    font-family: FontQuick;
-    color: white;
-}
-
-.titulohoteleria{
-    position: relative;
-    right: 62%;
-    bottom: -45%;
-    font-size: 200%;
-    font-family: FontQuick;
-    color: white;
-}
-
-.titulogastronomia{
-    position: relative;
-    right: 62%;
-    bottom: -45%;
-    font-size: 200%;
-    font-family: FontQuick;
-    color: white;
-}
-
-.titulolavanderia{
-    position: relative;
-    right: 62%;
-    bottom: -45%;
-    font-size: 200%;
-    font-family: FontQuick;
-    color: white;
-}
-
-.tituloedificios{
-    position: relative;
-    right: 62%;
-    bottom: -33%;
-    font-size: 200%;
-    font-family: FontQuick;
-    color: white;
 }
