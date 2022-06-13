@@ -1,0 +1,29 @@
+footer{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(230,90%,75%);
+    font-family: FontQuick;
+
+    .titulo-contacto{
+        background-color: white;
+        padding: 0.5%;
+    }
+
+    .whatsapp-imagen{
+        width: 4%;
+    }
+    
+    .insta-imagen{
+        width: 4%;
+    }
+    
+    .facebook-imagen{
+        width: 4%;
+    }
+    
+    .gmail-imagen{
+        width: 4%;
+    }
+}

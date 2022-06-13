@@ -1,0 +1,43 @@
+header{
+    .masbel-titulo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: FontQuick;
+        color: black;
+    }
+    
+    .logo-carrito-buscador{
+        background-image: url();
+        background-size: 6%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .logo-masbel{
+        display: flex;
+        max-width: 50%;
+        border-radius: 50%;
+    }
+    
+    .buscador{
+        display: flex;
+        font-family: FontQuick;
+        margin-right: 10%;
+        width: 100%;
+    }
+    
+    .carrito-imagen{
+        display: flex;
+    }
+    
+    .menu{
+        border-top: $bg-border;
+        border-bottom: $bg-border;
+        display: flex;
+        justify-content: center;
+        font-family: FontQuick;
+        font-size: 115%;
+    }
+}
