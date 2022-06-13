@@ -1,0 +1,23 @@
+$bg-border: 5px solid hsl(240,80%,75%);
+
+.masvendidos{
+    display: flex;
+    justify-content: center;
+    font-family: FontQuick;
+    font-size: 300%;
+}
+
+.section-masvendido{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    .masvendido-imagen:hover{
+        transform: scale(1.5);
+    }
+    
+    .masvendido-imagen{
+        transition: all 1s;
+    }
+}

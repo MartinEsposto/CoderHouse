@@ -1,0 +1,9 @@
+$bg-border: 5px solid hsl(240,80%,75%);
+
+.contacto{
+    border-bottom: $bg-border;
+    display: flex;
+    justify-content: center;
+    font-family: FontQuick;
+    text-align: center;
+}
