@@ -1,16 +1,14 @@
 $bg-border: 5px solid hsl(240,80%,75%);
 
 .horarios{
-    display: flex;
-    justify-content: center;
+    @extend %posicion;
     font-family: FontQuick;
     font-size: 300%;
 }
 
 .tabla-horarios{
     border-bottom: $bg-border;
-    display: flex;
-    justify-content: center;
+    @extend %posicion;
     font-size: 150%;
     font-family: FontQuick;
     text-align: center;

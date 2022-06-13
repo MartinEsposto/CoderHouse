@@ -2,8 +2,7 @@ $bg-border: 5px solid hsl(240,80%,75%);
 
 header{
     .masbel-titulo{
-        display: flex;
-        justify-content: center;
+        @extend %posicion;
         align-items: center;
         font-family: FontQuick;
         color: black;
@@ -37,8 +36,7 @@ header{
     .menu{
         border-top: $bg-border;
         border-bottom: $bg-border;
-        display: flex;
-        justify-content: center;
+        @extend %posicion;
         font-family: FontQuick;
         font-size: 115%;
     }

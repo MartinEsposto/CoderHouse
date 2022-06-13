@@ -1,8 +1,7 @@
 $bg-border: 5px solid hsl(240,80%,75%);
 
 .conocetitulo{
-    display: flex;
-    justify-content: center;
+    @extend %posicion;
     align-items: center;
     border-top: $bg-border;
     font-family: FontQuick;
@@ -20,28 +19,23 @@ $bg-border: 5px solid hsl(240,80%,75%);
     padding-bottom: 5%;
 
     .div1 { grid-area: 1 / 1 / 3 / 2; 
-        display:flex;
-        align-items: center;
+        @extend %posicion-vertical;
     }
 
     .div2 { grid-area: 1 / 2 / 2 / 3; 
-        display:flex;
-        align-items: center;
+        @extend %posicion-vertical;
     }
 
     .div3 { grid-area: 1 / 3 / 2 / 4; 
-        display:flex;
-        align-items: center;
+        @extend %posicion-vertical;
     }
 
     .div4 { grid-area: 2 / 3 / 3 / 4; 
-        display:flex;
-        align-items: center;
+        @extend %posicion-vertical;
     }
 
     .div5 { grid-area: 2 / 2 / 3 / 3; 
-        display:flex;
-        align-items: center;
+        @extend %posicion-vertical;
     }
 
     .conocetamaño , .hoteleriatamaño , .gastronomiatamaño , .lavanderiatamaño , .edificiostamaño{
