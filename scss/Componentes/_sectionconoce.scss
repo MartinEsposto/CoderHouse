@@ -1,5 +1,11 @@
 $bg-border: 5px solid hsl(240,80%,75%);
 
+@mixin position ($position, $right, $bottom){
+    position: $position;
+    right: $right;
+    bottom: $bottom;
+}
+
 .conocetitulo{
     @extend %posicion;
     align-items: center;
@@ -43,9 +49,7 @@ $bg-border: 5px solid hsl(240,80%,75%);
     }
 
     .titulotrabajamos{
-        position: relative;
-        right: 64%;
-        bottom: -17%;
+        @include position(relative, 64%, -17%);
         font-size: 250%;
         font-family: FontQuick;
         color: black;
@@ -53,36 +57,28 @@ $bg-border: 5px solid hsl(240,80%,75%);
     }
     
     .titulohoteleria{
-        position: relative;
-        right: 62%;
-        bottom: -45%;
+        @include position(relative, 62%, -45%);
         font-size: 200%;
         font-family: FontQuick;
         color: white;
     }
     
     .titulogastronomia{
-        position: relative;
-        right: 62%;
-        bottom: -40%;
+        @include position(relative, 62%, -40%);
         font-size: 200%;
         font-family: FontQuick;
         color: white;
     }
     
     .titulolavanderia{
-        position: relative;
-        right: 62%;
-        bottom: -45%;
+        @include position(relative, 62%, -45%);
         font-size: 200%;
         font-family: FontQuick;
         color: white;
     }
     
     .tituloedificios{
-        position: relative;
-        right: 62%;
-        bottom: -33%;
+        @include position(relative, 62%, -33%);
         font-size: 200%;
         font-family: FontQuick;
         color: white;
