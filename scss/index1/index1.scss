@@ -1,0 +1,22 @@
+.primera-fila{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 3%;
+}
+
+.imgprimera-fila:hover {
+    transform: scale(1.5);
+}
+
+.imgprimera-fila{
+    transition: all 1s;
+}
+
+.segunda-fila{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
