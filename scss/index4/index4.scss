@@ -1,0 +1,110 @@
+.tituloinicios{
+   @extend %posicion;
+   @extend %titulosindex4;
+}
+
+.txtinicios{
+    @extend %textcenter;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2.5%;
+    .imginicios{
+        width: 30%;
+        padding: 2.5%;
+    
+    }
+}
+
+.titulotrayectoria{
+    @extend %posicion;
+    @extend %titulosindex4;
+}
+
+.trayectoria{
+    @extend %textcenter;
+    padding: 2.5%;
+}
+
+.imgstrayectoria{
+    display: flex;
+    justify-content: space-around;
+    .imgtrayectoria1{
+        width: 25%;
+    }
+}
+
+.titulotrabajamos{
+    @extend %posicion;
+    @extend %titulosindex4;
+}
+
+.txt1{
+    @extend %textcenter;
+    padding: 2.5%;
+    display: flex;
+    align-items: center;
+    .imgtrabajamos1{
+        width: 30%;
+        padding: 2.5%;
+    }
+}
+
+.txt2{
+    @extend %textcenter;
+    display: flex;
+    align-items: center;
+    padding: 2.5%;
+    .imgtrabajamos2{
+        width: 20%;
+        display: flex;
+        padding: 2.5%;
+    }
+}
+
+.imgsola{
+    display: flex;
+    justify-content: center;
+    .imgtrabajamos3{
+        width: 15%;
+    }
+}
+
+.tituloenvios{
+    @extend %posicion;
+    font-size: 250%;
+    text-decoration: underline;
+}
+
+.txt3{
+    @extend %textcenter;
+    display: flex;
+    align-items: center;
+    padding: 2.5%;
+    .imgtrabajamos5{
+        width: 20%;
+        padding: 2.5%;
+    }
+}
+
+.ultimg{
+    @extend %posicion;
+    @extend %textcenter;
+
+    .imgtrabajamos4{
+    width: 50%;
+    }
+}
+
+.volver{
+    @extend %posicion;
+    padding: 2.5%;
+
+    .titulovolver{
+        font-size: 300%;
+        background-color: white;
+        padding: 2%;
+        border-radius: 5%;
+    }
+}
+
