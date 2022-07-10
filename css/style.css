@@ -186,6 +186,12 @@ header .masbel-titulo, header .menu, .masvendidos, .conocetitulo, .horarios, .ta
   text-align: center;
   padding-bottom: 3%; }
 
+.Menu {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: FontQuick;
+  font-size: 200%; }
+
 .txtinicios {
   display: flex;
   justify-content: space-around;
@@ -259,6 +265,10 @@ body {
   .conocetitulo {
     display: none; }
   .tabla {
+    display: none; }
+  .horarios {
+    display: none; }
+  .tabla-horarios {
     display: none; } }
 
 @media screen and (max-width: 768px) {

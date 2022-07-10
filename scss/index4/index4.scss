@@ -3,6 +3,13 @@
    @extend %titulosindex4;
 }
 
+.Menu{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: FontQuick;
+    font-size: 200%;
+}
+
 .txtinicios{
     @extend %textcenter;
     display: flex;
