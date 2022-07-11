@@ -14,19 +14,19 @@
 .txtinicios{
     @extend %textcenter;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     padding: 2.5%;
     .imginicios{
         width: 30%;
         padding: 2.5%;
-    
     }
 }
 
 .titulotrayectoria{
     @extend %posicion;
     @extend %titulosindex4;
+    text-align: center;
 }
 
 .trayectoria{

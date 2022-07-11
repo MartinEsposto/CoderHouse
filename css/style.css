@@ -195,12 +195,15 @@ header .masbel-titulo, header .menu, .masvendidos, .conocetitulo, .horarios, .ta
 
 .txtinicios {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   padding: 2.5%; }
   .txtinicios .imginicios {
     width: 30%;
     padding: 2.5%; }
+
+.titulotrayectoria {
+  text-align: center; }
 
 .trayectoria {
   padding: 2.5%; }
